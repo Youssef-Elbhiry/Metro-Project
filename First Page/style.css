@@ -1,0 +1,441 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.top-10
+{
+    top:-10px;
+}
+body{
+    height:5000px
+}
+.redcircle{
+    border:1px solid;
+    border-radius: 50%;
+    font-size: 10px;
+    background-color: rgb(251, 35, 35);
+    color:white
+}
+.contact:hover,
+.header-language:hover,
+.header-coin:hover,
+.login:hover,
+.heart:hover,
+.cart:hover{
+    color:red !important;
+}
+.menu-icon::after{
+    content:"";
+    display: inline-block;
+    width:10px;
+    height:10px;
+    border:1px solid;
+  
+}
+.circlebtn{
+    width: 10px !important;
+    padding: 4px .5px !important;
+    border-radius: 50%;
+    margin: 0 4px
+   
+}
+
+.h-75{
+    height:75vh !important
+}
+/*colors*/
+.darkgreen{
+    background-color: #84a7a9;
+}
+.darkyellow
+{   
+    background-color: #cba787;
+
+}
+.orange{
+    background-color: #db5847;
+}
+.text{
+    margin-left: 26%;
+    padding-top:35%;
+
+    
+}
+.text p{
+    line-height: 88%;
+    font-size: 50px;
+  
+    
+}
+
+.text p,
+.text h5,
+.text button{
+    transform: translateX(-100px);
+    transition: all .3s ease-in-out;
+    opacity: 0;
+}
+.carousel-item.active p,
+.carousel-item.active h5,
+.carousel-item.active button{
+    transform: translateX(0);
+    opacity: 1;
+    
+}
+.btn-shop:hover{
+    background-color:#84a7a9 !important;
+    color:white;
+    border:1px solid white;
+}
+.btn-shop2:hover{
+      background-color:#cba787 !important;
+    color:white;
+    border:1px solid white;
+}
+.btn-shop3:hover{
+      background-color:#db5847 !important;
+    color:white;
+    border:1px solid white;
+}
+
+.top-11{
+    top:10%
+}
+.left-10{
+    left:10%
+}
+.imageandcont:hover img{ 
+   transform: scale(1.1) rotateX(10deg);
+   transition: all .4s;
+   
+}
+.btn-blackh:hover{
+background-color: black !important;
+color:white;
+}
+.fs-40
+{
+    font-size: 17px;
+}
+.iconsize{
+ font-size: 39px;
+}
+.lightcolor
+{
+    color:#b2b2b2;
+}
+.border-endd{
+    border-right: 1px solid #b2b2b2;
+    padding-right: 15%;
+    height:70%
+}
+.spec:hover i{
+    color: black !important;
+}
+.owlimage{
+    border-radius: 50%;
+    width:100%
+    
+}
+ .owl-carouselone .owl-item{
+aspect-ratio: 1/2;
+padding:5px;
+margin-top:.5rem;
+}
+ .owl-carouselone .owl-item .overlay i{
+    transform:translateX(-800px);
+}
+ .owl-carouselone .owl-item:hover .overlay{
+    display: block !important;
+    background:rgba(53, 53, 54, 0.7);
+    border-radius: 50%;
+    height: 100%;
+}
+ .owl-carouselone .owl-item:hover .overlay i{
+     transform:translateX(0) ;
+}
+ .owl-carouselone .owl-item:hover div a{
+     color:rgb(238, 7, 7) !important;
+}
+.owl-carouselone{
+    height:30vh;
+    margin-bottom: 4%;
+}
+.discounts .fp
+{
+    font-size: 18px;
+}
+.discounts .coupon{
+    font-size: 17px;
+}
+.featurs{
+    top:10%;
+    left:61%;
+    padding:2% 0% 3% 3.5%;
+    width:30%;
+    box-shadow: 0 0 8px gray;
+}
+.bgcarsoul
+{
+    background-color: #ebeef0;
+}
+.hodie1{
+    background-image: url(images/hodi2.jpg);
+}
+.imgbackground{
+    mix-blend-mode: multiply;
+   
+}
+.w-4{
+width:4%
+}
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+    display: block !important;
+    filter: invert(1);
+}
+.imageindicator button{
+    width:50px !important;
+    height:50px !important;
+    padding:0
+}
+.imageindicator{
+    bottom:20%;
+    justify-content: start;
+    margin-left: 12%;
+}
+.imageindicator button:hover img{
+  border:1px solid black !important;
+}
+.carousel-indicators [data-bs-target]{
+    text-indent: 0 !important ;
+}
+.btn-buy{
+    margin-top:23%;
+    width:86%;
+    background-color: black;
+    color:white;
+    padding:3% 0;
+}
+.btn-buy:hover {
+    background-color: white;
+    color:black;
+    transition: .5s all;
+}
+
+.w-card{
+    width:calc(100% /6) !important;
+}
+
+.owltitle{
+     margin-top: 5%;
+    margin-bottom: 2%;
+}
+/*owl 2*/
+.owl-carouseltwo .owl-item{
+    padding:0;
+    margin:0  ;
+    aspect-ratio: 0;
+   
+}
+.dis p{
+    background-color: rgb(219, 41, 41);
+    top:2%;
+    left:2%;
+    font-size:13px;
+    font-weight: bold;
+    color:white;
+    padding: 2px 6px ;
+    border-radius: 10%;
+}
+.owl-nav .owl-prev {
+    position: absolute;
+    top: 37%;
+    font-size: 44px !important;
+    border: 1px solid rgb(213, 213, 213) !important;
+    border-bottom-right-radius: 8px;
+    vertical-align: center !important;
+    width: 2%;
+    border-top-right-radius: 8px;
+    display: none;
+}
+.owl-nav button:hover {
+   background: black !important;
+   color:white !important;
+}
+.cnt:hover .owl-nav button
+{
+    display: block;
+}
+.owl-nav .owl-next {
+    position: absolute;
+    top: 37%;
+    right:0;
+    font-size: 44px !important;
+    border: 1px solid rgb(213, 213, 213) !important;
+    border-bottom-left-radius: 8px;
+    vertical-align: center !important;
+    width: 2%;
+    border-top-left-radius: 8px;
+    display: none;
+}
+
+ .owl-carouseltwo .owl-item:hover {
+  
+  box-shadow: 0 0 8px gray;
+}
+.owl-item:hover  .hovereffect{
+    display: block !important;
+}
+ .card .hovereffect{
+   top:2%;
+    right:3%;
+    z-index: 10;
+}
+ 
+.card .hovereffect div i{
+    background-color:  #ebeef0;
+    margin:2px 0;
+    
+}
+.card .hovereffect div i:hover {
+   background-color: black;
+   color:white;
+}
+ .caption1{
+    color:white;
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 10%;
+    
+ }
+
+ .photo:hover  img{
+    transform: rotateX(20deg) scaleX(1.1) scaleY(1.2);
+    transition: all .5s;
+ }
+ 
+ .h-70{
+    height:44vh;
+ }
+.cap h5{
+    font-size: 13px;
+    font-weight: bold;
+    color:#d26f25
+}
+.imagessec{
+   margin-left:7%;
+   margin-right:3%;
+   margin-top:3%;
+}
+/**/
+.h-40{
+    height:30vh;
+}
+
+.crd:hover .expand{
+    display: block !important;
+    
+    border-bottom: 2px ;
+      
+}
+.crd:hover {
+   height:35vh !important;
+   box-shadow: 0 0 2px rgb(206, 206, 206);
+   z-index: 1000;
+   background-color: white;
+   
+}
+.b-5{
+    bottom:5%
+}
+.f-7
+{
+    font-size: 13px ;
+}
+
+.owl-carouselthree .owl-item .img:hover  img {
+    transform: scale(1.12) rotate(3deg);
+    transition: all .5s;
+}
+.owl-carouselthree .owl-item .txt div .type:hover,
+.owl-carouselthree .owl-item .txt div .bywho:hover ,
+.owl-carouselthree .owl-item .txt h4 a:hover{
+    color:red !important;
+}
+.w-60{
+    width:50% !important
+}
+.search .input-group{
+    margin: 25px 0 25px 25%;
+    height:7vh;
+}
+.search .input-group input{
+  outline:none;
+box-shadow: none;
+}
+.searchitem{
+      margin: 25px 0 25px 26%;
+}
+.search div ul li a:hover
+
+{
+    color:red !important;
+}
+.search .input-group button:hover{
+    background-color:red !important; ;
+}
+.border-light-subtle {
+    border-color: #65696e !important;
+}
+.fs-8{
+    font-size: 17px!important;
+}
+ .detls .c div div a{
+    
+    text-decoration: underline !important;
+    text-underline-offset: 10px;
+    text-decoration-thickness:  1px !important;
+    
+}
+.fs-14{
+ font-size:14px !important;
+}
+.btn-togler:focus,
+.btn-togler:visited
+{
+    outline:none !important;
+    box-shadow: none !important;
+}
+.btn-togler{
+    margin-left: 3%;
+}
+
+
+.dropbtn::after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  transform: rotate(45deg);
+  margin-bottom:8px;
+  vertical-align: middle;
+}
+.mx-6{
+    margin-left: 9%;
+    margin-right:6%;
+}
+.taps li:hover,
+.dropdown .dropbtn:hover,
+ .navbar div .btn-togler:hover span
+{
+    color:red !important
+}
+.taps li:hover .dropdown .dropbtn::after,
+.dropdown .dropbtn:hover .dropbtn::after{
+    border-right-color: red;
+  border-bottom-color: red;
+}
