@@ -1,0 +1,1521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/08/cropped-favicon-1-32x32.png" sizes="32x32">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flaticon-icon-font/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  
+    <link rel="stylesheet" href="style.css">
+    <title>Merto – Elementor Multipurpose WooCommerce Theme</title>
+</head>
+<body>
+    <div class="d-flex d-none form ">
+          <div class="col-6 overflow-hidden">
+            <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/05/login-banner.jpg" class="w-100 h-100" alt="">
+          </div>
+          <div class="col-6 bg-white">
+            <form action="" class="">
+              <h4 class="text-center headlogin">Login</h4>
+               <input type="text" class="d-block bg-body-secondary border-0 outline-0 rounded inputsize px-3 m-325" placeholder="Username or email address*"  >
+               <input type="password " class="d-block bg-body-secondary border-0 outline-0 rounded inputsize mt-3  px-3 m-325" placeholder="Password*" >
+             <div class="align-content-center d-flex mt-3">
+                <input type="checkbox" class="m-325 me-1" > <span class="lightcolor fs-14 fw-semibold mb-1">Remember Me</span> <span class="lightcolor fs-14 fw-semibold fpass">Forget Password?</span>
+             </div> 
+                <button  type="submit" class="btn  btn-sup bg-black m-325 fw-semibold fs-6 text-white w-75 px-5 mt-3 py-2">LOG IN</button>
+                <hr class="w-100 horizontalline">
+                <span class="lightcolor m-325 fw-semibold ps-2">You dont have an account yet?</span> <a href="" class="text-dark text-decoration-none underlineanimate position-relative">Register Now</a>
+            </form>
+            <button class="logcansel">X</button>
+          </div>
+     </div>
+  <div class="bignav  bg-white py-2  " id="snav">
+     <nav class="navbar navbar-expand-lg bg-white  " >
+         <div class="container-fluid  justify-content-around py-2">
+            <div class=" col-1 mx-5">
+                <a class="navbar-brand  " href="#" >
+                <img src="https://merto-be87.kxcdn.com/merto/wp-content/themes/merto/images/logo.png " loading="lazy"  alt="Merto" title="Merto" class="normal-logo w-100 ">
+                </a>
+            </div>
+               
+            <div  class="d-flex align-items-center col-5 justify-content-around p-1">
+              <div class="col-4 d-none d-xl-block  " >
+                   <a class="d-flex  contact align-items-center  text-decoration-none text-dark" href="tel:(+92) 3942 7879">
+                   <i class="fa-solid fa-phone fa-2x mx-3"></i>
+                   <div >
+                     <p class="mb-0">Contact us 24/7</p>
+                     <p class="mb-0 fw-semibold">(+92) 3942 7879</p>
+                     
+                  </div>
+                  </a>
+              </div>
+              <div class="col-6 position-relative z-3  " id="searchdiv">
+              <div class="d-flex bg-body-secondary align-items-center px-1  " id = "searchdiv">
+               
+                <div class="selectoption  d-flex col-6  ">
+                  <select class="form-select custom-select  px-0 w-auto fw-semibold border border-0  bg-body-secondary m-2 d-none d-md-block noarrow  " id="inputGroupSelect01">
+                   <option selected >All categories</option>
+                   <option value="1" >Autopart</option>
+                   <option value="2">Accessories</option>
+                   <option value="3">Car Care</option>
+                   <option value="4">Equipment</option>
+                   <option value="4">Lights</option>
+                   <option value="4">Oil & Fluids</option>
+                   <option value="4">Tires</option>
+                   <option value="4">Wheels</option>
+                   <option value="4">Lipstick</option>
+                </select>   
+                <span class="arow"></span>   
+              </div>
+                <div class="search d-flex col-6 ">
+                   <input type="text" placeholder="Search for products" id="btnserch" class=" btnsearch border-0 bg-body-secondary d-none d-md-block  py-2 w-75   " style="outline:none !important ;padding-left: 4%;" autocomplete="off">
+                  <button  type="submit" value="Search"   class=" bg-black text-white py-2 px-3 rounded d-none d-md-block  "><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div> 
+           </div>
+          
+            <div class="d-flex flex-wrap d-none position-absolute top-100 pe-4 pb-2 z-3 bg-white w-100" id="box">
+                   <h6 class="d-block w-100 p-2 mt-3">popular search</h6>
+                  <a href="" class="btn hovreffct px-2  py-1  border m-2 ">smartphone</a>
+                  <a href="" class="btn hovreffct px-2  py-1 border m-2">tablet</a>
+                   <a href="" class="btn hovreffct px-2  py-1 border m-2">controller</a>
+                   <a href="" class="btn hovreffct px-2 py-1  border m-2">furniture</a>
+                   <a href="" class="btn hovreffct px-2 py-1  border m-2">laptop</a>
+                   <a href="" class="btn hovreffct px-2 py-1  border m-2">playstation</a>
+                   <a href="" class="btn hovreffct px-2 py-1  border m-2">womens fashion</a>
+                   <a href="" class="btn hovreffct px-2 py-1  border m-2">home & decor</a>
+                   <a href="" class="btn hovreffct px-2 py-1  border m-2">camera</a>
+                </div>
+
+            </div>
+            </div> 
+    
+    <div class="d-flex col-4 px-5">
+        <div class="dropdown header-language mx-2 d-none d-xl-block ">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <img class="wpml-ls-flag" src="https://merto-be87.kxcdn.com/merto/wp-content/plugins/themesky-demo/images/flags/english.png" alt="English" loading="lazy">
+            <span>English </span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#"><img class="wpml-ls-flag mx-1" src="https://merto-be87.kxcdn.com/merto/wp-content/plugins/themesky-demo/images/flags/espanol.png" alt="Espanol" loading="lazy"><span>Español</span></a></li>
+            <li><a class="dropdown-item" href="#"><img class="wpml-ls-flag mx-1" src="https://merto-be87.kxcdn.com/merto/wp-content/plugins/themesky-demo/images/flags/francais.png" alt="Français" loading="lazy"> <span>Français</span></a></li>
+            <li><a class="dropdown-item" href="#"><img class="wpml-ls-flag mx-1" src="https://merto-be87.kxcdn.com/merto/wp-content/plugins/themesky-demo/images/flags/portugues.png" alt="Português" loading="lazy"><span>Português</span></a></li>
+          </ul>
+       </div>
+    
+       <div class="dropdown header-coin mx-2 d-none d-xl-block ">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <span>USD </span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">EUR</a></li>
+              <li><a class="dropdown-item" href="#">BRL</a></li>
+            </ul>
+      </div>
+
+      <div>
+      <a class="login text-decoration-none text-dark mx-2 d-flex align-items-center  " href="" >
+        <i class="fa-regular fa-user mx-1"></i>
+        <span class="fw-bold d-none d-xl-block">Account</span>
+      </a>
+      </div>
+      <div class="position-relative mx-3 heart">
+         <i class="fa-regular fa-heart fa-xl" ></i>
+         <span class="position-absolute top-10 redcircle px-2 py-1">0</span>
+      </div>
+       <div class="position-relative mx-3 cart">
+         <i class="fas fa-shopping-cart cart-icon fa-xl"></i>
+          
+         <span class="position-absolute top-10  px-2 py-1 redcircle ">0</span>
+      </div>
+    </div>
+     </div>
+      </nav>
+          
+        </div >
+    <header>  
+       <hr class="m-0 ">
+        <!-- -------------------------------------------------------------------------------------->
+     <nav class="navbar bg-body-tertiary p-0 m-0 gap-0   ">
+     <div class="container-fluid ">   <!-- left togle-->
+       <button class="navbar-toggler btn-togler border-0   mb-1 px-4" type="button " data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon d-inline-block text-dark f-7   fw-bold"></span>
+         <span class="text-dark fs-14 fw-bold mx-2">SHOP BY CATEGORIES</span>
+       </button>
+       
+
+       <ul class="list-unstyled d-flex mt-2  taps">
+            <li >
+                <div class="dropdown homep mx-1  ">
+                    <a class="btn dropbtn border-0 fw-semibold element" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                       Homepages
+                    </a>
+                    
+                     <div class=" object-wraper   flex-wrap d-flex">
+                     <div class="wraber-box ">
+                           <div class="overflow-hidden">
+                            <a href="" class="w-100 h-100" >
+                               <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/05/mega-home-1.jpg" class="w-100 h-100" alt="">
+                            </a>
+                           </div>
+                           <div class=" bg-white text-center pt-4">
+                            <h6><a href="" class="text-decoration-none text-dark">Supermarket 01</a></h6>
+                           </div>
+                      </div>
+
+
+                     <div class="wraber-box ">
+                           <div class="overflow-hidden">
+                            <a href="" class="w-100 h-100" >
+                               <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/05/mega-home-2.jpg" class="w-100 h-100" alt="">
+                            </a>
+                           </div>
+                           <div class=" bg-white text-center pt-4">
+                            <h6><a href="" class="text-decoration-none text-dark">Supermarket 02</a></h6>
+                           </div>
+                      </div>
+
+
+                      <div class="wraber-box ">
+                           <div class="overflow-hidden">
+                            <a href="" class="w-100 h-100" >
+                               <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/05/mega-home-3.jpg" class="w-100 h-100" alt="">
+                            </a>
+                           </div>
+                           <div class=" bg-white text-center pt-4">
+                            <h6><a href="" class="text-decoration-none text-dark">Furniture</a></h6>
+                           </div>
+                      </div>
+
+
+
+                     <div class="wraber-box ">
+                           <div class="overflow-hidden">
+                            <a href="" class="w-100 h-100" >
+                               <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/05/mega-home-4.jpg" class="w-100 h-100" alt="">
+                            </a>
+                           </div>
+                           <div class=" bg-white text-center pt-4">
+                            <h6><a href="" class="text-decoration-none text-dark">Electronic</a></h6>
+                           </div>
+                      </div>
+
+
+                      <div class="wraber-box ">
+                           <div class="overflow-hidden">
+                            <a href="" class="w-100 h-100" >
+                               <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/05/mega-home-5.jpg" class="w-100 h-100" alt="">
+                            </a>
+                           </div>
+                           <div class=" bg-white text-center pt-4">
+                            <h6><a href="" class="text-decoration-none text-dark">Autopart</a></h6>
+                           </div>
+                      </div>
+
+
+                      <div class="wraber-box ">
+                           <div class="overflow-hidden">
+                            <a href="" class="w-100 h-100" >
+                               <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/05/mega-home-6.jpg" class="w-100 h-100" alt="">
+                            </a>
+                           </div>
+                           <div class=" bg-white text-center pt-4">
+                            <h6><a href="" class="text-decoration-none text-dark">Cosmatics</a></h6>
+                           </div>
+                      </div>
+
+                   </div>
+                  </div>
+            </li>
+
+             <li>
+                <div class="dropdown mx-1">
+                    <a class="btn dropbtn border-0 fw-semibold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Catgories
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                       <li><a class="dropdown-item" href="#">Something else here</a></li>
+                   </ul>
+                </div>
+            </li>
+
+
+             <li>
+                <div class="dropdown mx-1">
+                    <a class="btn dropbtn border-0 fw-semibold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Products
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                       <li><a class="dropdown-item" href="#">Something else here</a></li>
+                   </ul>
+                </div>
+            </li>
+
+             <li>
+                <div class="dropdown ">
+                    <a class="btn dropbtn border-0  fw-semibold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Pages
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                       <li><a class="dropdown-item" href="#">Something else here</a></li>
+                   </ul>
+                </div>
+            </li>
+
+            <li><a href="" class="btn fw-semibold border-0 mx-1">About us</a></li>
+            <li><a href="" class="btn fw-semibold border-0 mx-1">Blog</a></li>
+            <li><a href="" class="btn fw-semibold border-0 mx-1">Best Discount</a></li>
+
+           
+       </ul>
+      
+
+               <div class="dropdown  resentlyv mx-6">
+                    <a class="btn dropbtn border-0 fw-semibold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Recently viewd
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                       <li><a class="dropdown-item" href="#">Something else here</a></li>
+                   </ul>
+                </div>
+
+
+<!-------------------------->
+
+    <div class="offcanvas offcanvas-start  " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">    
+      <div class="offcanvas-body p-0">
+        <div class="bg-black sopbyc  ">
+          <span class="navbar-toggler-icon navbar-toggler-icon-white d-inline-block  f-7 text-white ms-2 fw-bold"></span>
+          <span class="text-white fs-14 fw-semibold mx-2  toggler-icon">SHOP BY CATEGORIES</span>
+        </div>
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li >
+            <div class="d-flex align-items-center ps-2 d-inline-block cat cat1 position-relative arrowright">
+               <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/03/icon-menu-1.png"  class="imgsize" alt="">
+                  <a class="nav-link active px-3 " aria-current="page" href="#">Fashion</a>
+             </div>
+            <div class="pannel pannelcommon" >
+           <div class="d-flex">
+            <ul class=" list-unstyled col-6">
+            <li class="fw-semibold">WOMEN</li>
+            <li class="my-3">Accessories</li>
+            <li class="my-3">Blazers</li>
+            <li class="my-3">Coats & Jackets</li>
+            <li class="my-3">Dress</li>
+            <li class="my-3">Shirts</li>
+            <li class="my-3">Shoes</li>
+            <li class="my-3">Shorts</li>
+            <li class="my-3">Skirts</li>
+            <li class="my-3">Sweatshirts</li>
+            
+          </ul>
+            <ul class=" list-unstyled col-6">
+            <li class="fw-semibold">MEN</li>
+            <li class="my-3">Accessories</li>
+            <li class="my-3">Cargo Trousers</li>
+            <li class="my-3">Hoodies</li>
+            <li class="my-3">Coats & Jackets</li>
+            <li class="my-3">Jeans</li>
+            <li class="my-3">Joggers</li>
+            <li class="my-3">Polo shirts</li>
+            <li class="my-3">Shirts</li>
+            <li class="my-3">Shoes</li>
+            
+            
+          </ul>
+           </div>
+
+           <div class=" position-relative overflow-hidden imgwt mt-4">
+            <div class="panner w-100 h-100 overflow-hidden rounded-1">
+              <img src="	https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/03/banner-vertical-menu-1.jpg"  class="w-100 h-100" alt="">
+            </div>
+            <div class="position-absolute panner-text">
+               <div>New Collection</div>
+               <h3 class="col-9 my-1 fw-semibold">Bobby Caro Dress</h3>
+               <button  type="button" class="btn btn-offcanvas1 px-3 py-1 text-uppercase fs-14  fw-semibold mt-2 ">Shop now</button>
+            </div>
+           </div>
+           </div>
+            <hr class="m-0 mt-2">
+          </li>
+
+
+            <li >
+            <div class="d-flex align-items-center ps-2 d-inline-block cat cat2  position-relative arrowright">
+                <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/03/icon-menu-2.png"  class="imgsize" alt="">
+                  <a class="nav-link active px-3 " aria-current="page" href="#">Phone & Tablet</a>
+             </div>
+              <div class="pannel2 pannelcommon" >
+           <div class="d-flex">
+            <ul class=" list-unstyled col-6">
+            <li class="fw-semibold">SMARTPHONE</li>
+            <li class="my-3">Iphone</li>
+            <li class="my-3">Samsung</li>
+            <li class="my-3">Huawei</li>
+            <li class="my-3">Oppo</li>
+            <li class="my-3">Xiaomi</li>
+            <li class="my-3">Realme</li>
+            <li class="my-3">Vivo</li>
+            <li class="my-3">Accessories</li>
+            
+            
+          </ul>
+             <ul class=" list-unstyled col-6">
+            <li class="fw-semibold">TABLET</li>
+            <li class="my-3">Iphone</li>
+            <li class="my-3">Samsung</li>
+            <li class="my-3">Huawei</li>
+            <li class="my-3">Oppo</li>
+            <li class="my-3">Xiaomi</li>
+            <li class="my-3">Realme</li>
+            <li class="my-3">Vivo</li>
+            <li class="my-3">Accessories</li>
+            
+            
+          </ul>
+           </div>
+
+           <div class=" position-relative overflow-hidden imgwt mt-4">
+            <div class="panner w-100 h-100 overflow-hidden rounded-1">
+              <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/03/banner-vertical-menu-2.jpg"  class="w-100 h-100" alt="">
+            </div>
+            <div class="position-absolute panner-text text-dark">
+               <h4 >OPPO 3 PRO</h4>
+               <div class="col-8">Big screen in incredibly slim design...</div>
+               <button  type="button" class="btn btn-offcanvas2 px-3 py-1 text-uppercase fs-14  fw-semibold mt-3  bg-transparent">Shop now</button>
+            </div>
+           </div>
+           </div>
+            <hr class="m-0 mt-2">
+          </li>
+
+               <li >
+            <div class="d-flex align-items-center ps-2 d-inline-block cat  position-relative arrowright">
+                  <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/03/icon-menu-3.png"  class="imgsize" alt="">
+                  <a class="nav-link active px-3 " aria-current="page" href="#">Laptop & Computer</a>
+             </div>
+            
+            <hr class="m-0 mt-2">
+          </li>
+
+
+          <li >
+            <div class="d-flex align-items-center ps-2 d-inline-block cat  position-relative arrowright">
+                 <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/03/icon-menu-4.png"  class="imgsize" alt="">
+                  <a class="nav-link active px-3 align-items-center  " aria-current="page" href="#">TV, Audio – Video</a>
+             </div>
+            
+            <hr class="m-0 mt-2">
+          </li>
+
+
+           <li >
+            <div class="d-flex align-items-center ps-2 d-inline-block cat  position-relative ">
+                 <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/03/icon-menu-5.png"  class="imgsize" alt="">
+                  <a class="nav-link active px-3 align-items-center  " aria-current="page" href="#">Camera & Photo</a>
+             </div>
+            
+            <hr class="m-0 mt-2">
+          </li>
+
+
+           <li >
+            <div class="d-flex align-items-center ps-2 d-inline-block cat  position-relative arrowright">
+                 <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/03/icon-menu-6.png"  class="imgsize" alt="">
+                  <a class="nav-link active px-3 align-items-center  " aria-current="page" href="#">Home & Decor</a>
+             </div>
+            
+            <hr class="m-0 mt-2">
+          </li>
+          
+           <li >
+            <div class="d-flex align-items-center ps-2 d-inline-block cat  position-relative arrowright">
+                 <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/03/icon-menu-7.png"  class="imgsize" alt="">
+                  <a class="nav-link active px-3 align-items-center  " aria-current="page" href="#">Beauty & Health</a>
+             </div>
+            
+            <hr class="m-0 mt-2">
+          </li>
+
+           <li >
+            <div class="d-flex align-items-center ps-2 d-inline-block cat  position-relative ">
+                 <img src="	https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/03/icon-menu-8.png"  class="imgsize" alt="">
+                  <a class="nav-link active px-3 align-items-center  " aria-current="page" href="#">Game Accessories</a>
+             </div>
+            
+            <hr class="m-0 mt-2">
+          </li>
+
+
+           <li >
+            <div class="d-flex align-items-center ps-2 d-inline-block cat  position-relative arrowright">
+                 <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/03/icon-menu-9.png"  class="imgsize" alt="">
+                  <a class="nav-link active px-3 align-items-center  " aria-current="page" href="#">Autopart</a>
+             </div>         
+          </li>
+        </ul>
+       
+      </div>
+    </div>
+  </div>
+</nav>
+    </header>
+    <!------------------------------------------------------------------------------------------------------------>
+    <div class="d-flex">
+
+      <!--div for carsol-->
+     <div id="carouselExampleCaptions" class="carousel slide  col-8" data-bs-ride="carousel" data-bs-interval="6000">
+    <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active circlebtn " aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class=" circlebtn "></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" class="circlebtn "></button>
+  </div>
+  <div class="carousel-inner h-75">
+    <div class="carousel-item active  ">
+      <div class=" d-flex">
+      <div class=" darkgreen col-5 ">
+       <div class="text">
+         <h5 class=" text-white">Limited time offer*</h5>
+        <p class="fw-bold text-white">Form Italia </p>
+        <p class="fw-bold text-white">Sale 25% Off</p>
+        <p class=" text-white"> Armchairs</p>
+        <button  type="button" class="btn btn-shop bg-white px-3 py-2 text-uppercase h6 fw-semibold mt-4">Shop now</button>
+       </div>
+      </div>
+      <div class="col-7"><img src="  https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/09/slide1-demo1.jpg" class="d-block w-100 h-75" alt="..."></div>
+    </div>
+    </div>
+    <div class="carousel-item">
+       <div class=" d-flex">
+      <div class=" darkyellow col-5 ">
+       <div class="text">
+         <h5 class=" text-white">Up to 90% off*</h5>
+        <p class="fw-bold text-white">Body Lotion </p>
+        <p class="fw-bold text-white">Spf Lap 50+</p>
+        <p class=" text-white">PA++++</p>
+        <button  type="button" class="btn btn-shop2 bg-white px-3 py-2 text-uppercase h6 fw-semibold mt-4">Shop now</button>
+       </div>
+      </div>
+      <div class="col-7"><img src=" https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/09/slide2-demo1.jpg" class="d-block w-100 h-75" alt="..."></div>
+    </div>
+    </div>
+      <div class="carousel-item">
+       <div class=" d-flex">
+      <div class=" orange col-6 ">
+       <div class="text">
+         <h5 class=" text-white">Limited time offer*</h5>
+        <p class="fw-bold text-white">Up To 20% </p>
+        <p class="fw-bold text-white">Instant Camera</p>
+        <p class=" text-white">Fujifilm's</p>
+        <button  type="button" class="btn btn-shop3 bg-white px-3 py-2 text-uppercase h6 fw-semibold mt-4">Shop now</button>
+       </div>
+      </div>
+      <div class="col-6"><img src=" https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/09/slide3-demo1.png" class="d-block w-100 h-75 orange" alt="..."></div>
+    </div>
+    </div>
+  </div>
+</div>
+ <!-- end of div for carsol-->
+      <div class=" h-75"> <!--tow images-->
+       <div class="position-relative imageandcont h-50">
+        <div class="overflow-hidden"><img loading="lazy" decoding="async" src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/09/banner1-mobile-demo1.jpg" class="bg-image mobile-banner w-100 " alt="" srcset="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/09/banner1-mobile-demo1.jpg 650w, https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/09/banner1-mobile-demo1-300x185.jpg 300w" sizes="(max-width: 650px) 100vw, 650px"></div>
+        <div class=" position-absolute top-11 left-10">
+          <div class="fw-bold">BLACK FRIDAY</div>
+          <h2 class="fw-bold  fs-1 col-5 my-2">Big Sale Eyeshadow</h2>
+         <div>Over +100 items </div>
+         <a href="" class="btn btn-blackh bg-transparent border border-1 border-black px-3 mt-4">SHOP NOW</a>
+        </div>
+       </div>
+
+      <div class="position-relative imageandcont h-50">
+        <div class="overflow-hidden h-100"><img loading="lazy" decoding="async" src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/09/banner2-mobile-demo1.jpg" class="bg-image mobile-banner w-100 " alt="" srcset="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/09/banner2-mobile-demo1.jpg 650w, https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/09/banner2-mobile-demo1-300x185.jpg 300w" sizes="(max-width: 650px) 100vw, 650px" ></div>
+        <div class=" position-absolute top-11 left-10">
+          <div class="fw-bold">NEW COLLECTION</div>
+          <h2 class="fw-bold  fs-1 col-8 my-2">Puffer Jacket 30% off</h2>
+         <div>Best jacket in year</div>
+         <a href="" class="btn btn-blackh bg-transparent border border-1 border-black px-3 mt-4">SHOP NOW</a>
+         </div>
+       </div>
+      </div><!-- end of tow images-->
+    </div>
+    <section>
+      <div class="d-flex container container-fluid justify-content-between position-relative z-2  my-5  ">
+        <div class="d-flex col-3 spec ">
+        <div><i class="fa-solid fa-truck-fast  iconsize lightcolor mt-1   mx-3 "  ></i></div>
+        <div class="border-endd " >
+          <h5 class="fs-40 fw-semibold mb-1">Fast, Free Shipping	</h5>
+          <p>On order over $50</p>
+          
+        </div>
+       
+        </div>
+
+        <div class="d-flex col-3 spec ">
+        <div><i class="fa-regular fa-clock iconsize lightcolor mt-1 mx-4"></i></div>
+        <div class="border-endd " >
+          <h5 class="fs-40 fw-semibold mb-1">Next Day Delivery	</h5>
+          <p>Free– spend over $99</p>
+        </div>
+        </div>
+
+        <div class="d-flex col-3 spec">
+        <div><i class="fa-regular fa-percent iconsize lightcolor mt-1 mx-3"></i></div>
+        <div class="border-endd " >
+          <h5 class="fs-40 fw-semibold mb-1">Low Price Guarantee	</h5>
+          <p>We offer competitive prices</p>
+        </div>
+        </div>
+
+        <div class="d-flex col-3 spec">
+        <div><i class="fa-regular fa-thumbs-up iconsize lightcolor mt-1  mx-3"></i></div>
+        <div >
+          <h5 class="fs-40 fw-semibold mb-1">Quality Guarantee</h5>
+          <p>We Guarantee Our Products</p>
+        </div>
+        </div>
+      </div>
+      <div class="owl-carousel owl-carouselone container container-fluid ">
+          <div >
+            <div>
+              <div class="position-relative">
+                 <div class="overlay position-absolute w-100 d-none text-center"><i class="fa-solid fa-arrow-right fa-lg text-white pt-5 mt-3 "></i> </div>
+                <img class="owlimage" loading="lazy" decoding="async" src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-5.jpg" alt="Laptop "  srcset="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-5.jpg 290w, https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-5-100x100.jpg 100w, https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-5-150x150.jpg 150w, https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-5-46x46.jpg 46w, https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-5-40x40.jpg 40w" sizes="(max-width: 290px) 100vw, 290px">
+               
+              </div>
+            <div class="text-center my-3 "><a href="" class="text-decoration-none text-dark">Laptop & Computer</a></div>  
+            </div>
+            
+          </div>
+           <div> <div >
+              
+             <div class="position-relative">
+                 <div class="overlay position-absolute w-100 d-none text-center"><i class="fa-solid fa-arrow-right fa-lg text-white pt-5 mt-3 "></i> </div>
+               <img class="owlimage" loading="lazy" decoding="async" src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-8.jpg" alt="HandBags" srcset="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-8.jpg 290w, https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-8-100x100.jpg 100w, https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-8-150x150.jpg 150w, https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-8-46x46.jpg 46w, https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-8-40x40.jpg 40w" sizes="(max-width: 290px) 100vw, 290px">
+              </div>
+            <div class="text-center my-3 "><a href="" class="text-decoration-none text-dark">HandBags</a></div>  
+            
+            </div> </div>
+           <div> 
+             <div class="">
+              
+              <div class="position-relative">
+                 <div class="overlay position-absolute w-100 d-none text-center"><i class="fa-solid fa-arrow-right fa-lg text-white pt-5 mt-3 "></i> </div>
+                <img class="owlimage" loading="lazy" decoding="async" src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-5.jpg" alt="Laptop "  srcset="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-5.jpg 290w, https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-5-100x100.jpg 100w, https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-5-150x150.jpg 150w, https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-5-46x46.jpg 46w, https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-5-40x40.jpg 40w" sizes="(max-width: 290px) 100vw, 290px">
+               
+              </div>
+            <div class="text-center my-3 "><a href="" class="text-decoration-none text-dark">Laptop & Computer</a></div>  
+            
+            </div>
+           </div>
+           <div> 
+             <div class="">
+              
+               <div class="position-relative">
+                 <div class="overlay position-absolute w-100 d-none text-center"><i class="fa-solid fa-arrow-right fa-lg text-white pt-5 mt-3 "></i> </div>
+               <img class="owlimage" loading="lazy" decoding="async" src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-6.jpg" alt="Fashion"   srcset="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-6.jpg 290w, https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-6-100x100.jpg 100w, https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-6-150x150.jpg 150w, https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-6-46x46.jpg 46w, https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-6-40x40.jpg 40w" sizes="(max-width: 290px) 100vw, 290px">
+              </div>
+            <div class="text-center my-3 "><a href="" class="text-decoration-none text-dark">Fashion</a></div>  
+            
+            </div>
+           </div>
+           <div> 
+             <div class="">
+              
+              <div class="position-relative">
+                 <div class="overlay position-absolute w-100 d-none text-center"><i class="fa-solid fa-arrow-right fa-lg text-white pt-5 mt-3 "></i> </div>
+               <img class="owlimage" loading="lazy" decoding="async" src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-1.jpg" alt="Smartphone"  srcset="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-1.jpg 290w, https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-1-100x100.jpg 100w, https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-1-150x150.jpg 150w, https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-1-46x46.jpg 46w, https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-1-40x40.jpg 40w" sizes="(max-width: 290px) 100vw, 290px">
+              </div>
+            <div class="text-center my-3 "><a href="" class="text-decoration-none text-dark">Smartphone</a></div>  
+            
+            </div>
+           </div>
+
+           <div> 
+        
+              
+              <div class="position-relative">
+                 <div class="overlay position-absolute w-100 d-none text-center"><i class="fa-solid fa-arrow-right fa-lg text-white pt-5 mt-3 "></i> </div>
+                <img class="owlimage" loading="lazy" decoding="async" src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-2.jpg" alt="Home &amp; Decor"  srcset="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-2.jpg 290w, https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-2-100x100.jpg 100w, https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-2-150x150.jpg 150w, https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-2-46x46.jpg 46w, https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-2-40x40.jpg 40w" sizes="(max-width: 290px) 100vw, 290px">
+              </div>
+               <div class="text-center my-3 "><a href="" class="text-decoration-none text-dark">Home & Decor</a></div>  
+            
+            
+           </div>
+           <div> 
+             <div class="">
+              
+              <div class="position-relative">
+                 <div class="overlay position-absolute w-100 d-none text-center"><i class="fa-solid fa-arrow-right fa-lg text-white pt-5 mt-3 "></i> </div>
+               <img class="owlimage" loading="lazy" decoding="async" src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/09/cosmetic-cat-7.jpg" alt="Makeup"  srcset="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/09/cosmetic-cat-7.jpg 290w, https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/09/cosmetic-cat-7-150x150.jpg 150w, https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/09/cosmetic-cat-7-46x46.jpg 46w, https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/09/cosmetic-cat-7-100x100.jpg 100w, https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/09/cosmetic-cat-7-40x40.jpg 40w" sizes="(max-width: 290px) 100vw, 290px">
+              </div>
+            <div class="text-center my-3 "><a href="" class="text-decoration-none text-dark">Makeup</a></div>  
+            
+            </div>
+           </div>
+           <div> 
+             <div class="">
+              
+              <div class="position-relative">
+                 <div class="overlay position-absolute w-100 d-none text-center"><i class="fa-solid fa-arrow-right fa-lg text-white pt-5 mt-3 "></i> </div>
+                <img  class="owlimage" loading="lazy" decoding="async" src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-7.jpg" alt="Headphones"  srcset="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-7.jpg 290w, https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-7-100x100.jpg 100w, https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-7-150x150.jpg 150w, https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-7-46x46.jpg 46w, https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/cat-7-40x40.jpg 40w" sizes="(max-width: 290px) 100vw, 290px">
+              </div>
+            <div class="text-center my-3 "><a href="" class="text-decoration-none text-dark">Headphones</a></div>  
+            
+            </div>
+           </div>
+        
+    </div>
+     <div class="d-flex discounts justify-content-center border border-2 container container-fluid pt-3 pb-1 rounded">
+          <h5 class="fp fw-normal ">Super discount for your <span class="fw-semibold">first purchase</span> </h5>
+          <h5 ><a href="" class="coupon text-danger fw-semibold mx-2 pb-1">COUPON25</a></h5>
+          <p>Use discount code in the checkout!</p>
+     </div>
+    </section>
+
+     
+  <section>
+     <div class="d-flex owltitle align-items-center  container container-fluid">
+        <h3>Flash Deals</h3>
+        <div class="d-flex align-items-center distime">
+          <span class="fs-14 text-muted fw-semibold me-2">Ends in</span>
+          <div class=" shapeofcounter mx-1 pt-1 text-center">
+             <span class="hours fw-semibold numbersize">00</span>
+          </div>
+          <span  class="fs-14 fw-semibold">:</span>
+            <div class=" shapeofcounter mx-1 pt-1 text-center">
+              <span class="minuts fw-semibold numbersize">00</span>
+            </div>
+          <span class="fs-14 fw-semibold">:</span>
+            <div class=" shapeofcounter mx-1 pt-1 text-center">
+               <span class="seconds fw-semibold numbersize">00</span>
+            </div>
+         
+        </div>
+        <div>
+          <a href="" class="text-dark text-decoration-none underlineanimate position-relative">See All Products</a>
+        </div>
+     </div>
+     
+        <div class="owl-carousel owl-carouseltwo container-fluid container">
+              
+              <div class="card px-3 position-relative py-3">
+                <div>
+                 <img src="https://demothemesky-be87.kxcdn.com/merto/wp-content/uploads/2024/05/electronic-30-6-300x300.jpg" class="w-100" alt="">
+                </div>
+              <div class="cardtext">
+                <p class="mb-0 fw-semibold">Laptop Asus Vivobook I5 1355U, 8GB RAM, 512GB SSD</p>
+                <span class="fw-semibold fs-5">$999 </span> <del class="fw-normal lightcolor">$1,536</del>
+                 <div class="my-1">
+                   <i class="fa-solid fa-star py-2 fa-xs"></i>
+                   <i class="fa-solid fa-star fa-xs"></i>
+                   <i class="fa-solid fa-star fa-xs"></i>
+                   <i class="fa-solid fa-star fa-xs"></i>
+                   <i class="fa-solid fa-star-half-alt fa-xs"></i>
+                 </div>
+             </div>
+             <div class="hovereffect d-none position-absolute">
+                <a class="position-relative text-decoration-none text-dark d-block">
+                   <i class="fa-regular fa-heart fw-normal border rounded-1 p-2"></i>
+                   <span class="hoveronicon">Wishlist</span>
+                </a> 
+
+               <a class="position-relative text-decoration-none text-dark d-block"> 
+                  <i class="fa-solid fa-down-left-and-up-right-to-center  border rounded-1 p-2"></i>
+                  <span class="hoveronicon ">Compare</span>
+               </a> 
+
+              <a class="position-relative text-decoration-none text-dark d-block"> 
+                  <span class="hoveronicon ">Quick view</span>
+                  <i class="fa-solid fa-magnifying-glass border rounded-1 p-2"></i>
+              </a> 
+
+               <a class="position-relative text-decoration-none text-dark d-block"> 
+                  <span class="hoveronicon ">Add to cart</span>
+                  <i class="fa-solid fa-cart-shopping border rounded-1  p-2"></i>
+               </a> 
+            
+            </div>
+           <div class="dis position-absolute">
+             <p>-35%</p>
+           </div>
+        </div>
+
+        <div class="card px-3 position-relative py-3">
+                <div>
+                 <img src="https://demothemesky-be87.kxcdn.com/merto/wp-content/uploads/2024/05/electronic-14-2-700x700.jpg" class="w-100" alt="">
+                </div>
+              <div class="cardtext">
+                <p class="mb-0 fw-semibold">Apple Watch Series 9 GPS 45mm, Aluminum Case with...</p>
+                <span class="fw-semibold fs-5">$890 </span> <del class="fw-normal lightcolor">$950</del>
+                 <div class="my-1">
+                   <i class="fa-solid fa-star py-2 fa-xs"></i>
+                   <i class="fa-solid fa-star fa-xs"></i>
+                   <i class="fa-solid fa-star fa-xs"></i>
+                   <i class="fa-solid fa-star fa-xs"></i>
+                   <i class="fa-solid fa-star-half-alt fa-xs"></i>
+                 </div>
+             </div>
+             <div class="hovereffect d-none position-absolute">
+                <a class="position-relative text-decoration-none text-dark d-block">
+                   <i class="fa-regular fa-heart fw-normal border rounded-1 p-2"></i>
+                   <span class="hoveronicon">Wishlist</span>
+                </a> 
+
+               <a class="position-relative text-decoration-none text-dark d-block"> 
+                  <i class="fa-solid fa-down-left-and-up-right-to-center  border rounded-1 p-2"></i>
+                  <span class="hoveronicon ">Compare</span>
+               </a> 
+
+              <a class="position-relative text-decoration-none text-dark d-block"> 
+                  <span class="hoveronicon ">Quick view</span>
+                  <i class="fa-solid fa-magnifying-glass border rounded-1 p-2"></i>
+              </a> 
+
+               <a class="position-relative text-decoration-none text-dark d-block"> 
+                  <span class="hoveronicon ">Add to cart</span>
+                  <i class="fa-solid fa-cart-shopping border rounded-1  p-2"></i>
+               </a> 
+            
+            </div>
+           <div class="dis position-absolute">
+             <p>-6%</p>
+           </div>
+        </div>
+
+        
+            <div class="card px-3 position-relative py-3">
+                <div>
+                 <img src="https://demothemesky-be87.kxcdn.com/merto/wp-content/uploads/2024/05/automotive-11-500x500.jpg" class="w-100" alt="">
+                </div>
+              <div class="cardtext">
+                <p class="mb-0 fw-semibold">TOOLS 34 Low Profile Hydraulic Trolley</p>
+                <span class="fw-semibold fs-5">$890 </span> <del class="fw-normal lightcolor">$950</del>
+                 <div class="my-1">
+                   <i class="fa-solid fa-star py-2 fa-xs"></i>
+                   <i class="fa-solid fa-star fa-xs"></i>
+                   <i class="fa-solid fa-star fa-xs"></i>
+                   <i class="fa-solid fa-star fa-xs"></i>
+                   <i class="fa-solid fa-star fa-xs"></i>
+                 </div>
+             </div>
+             <div class="hovereffect d-none position-absolute">
+                <a class="position-relative text-decoration-none text-dark d-block">
+                   <i class="fa-regular fa-heart fw-normal border rounded-1 p-2"></i>
+                   <span class="hoveronicon">Wishlist</span>
+                </a> 
+
+               <a class="position-relative text-decoration-none text-dark d-block"> 
+                  <i class="fa-solid fa-down-left-and-up-right-to-center  border rounded-1 p-2"></i>
+                  <span class="hoveronicon ">Compare</span>
+               </a> 
+
+              <a class="position-relative text-decoration-none text-dark d-block"> 
+                  <span class="hoveronicon ">Quick view</span>
+                  <i class="fa-solid fa-magnifying-glass border rounded-1 p-2"></i>
+              </a> 
+
+               <a class="position-relative text-decoration-none text-dark d-block"> 
+                  <span class="hoveronicon ">Add to cart</span>
+                  <i class="fa-solid fa-cart-shopping border rounded-1  p-2"></i>
+               </a> 
+            
+            </div>
+           <div class="dis position-absolute">
+             <p>-8%</p>
+           </div>
+        </div>
+
+               <div class="card px-3 position-relative py-3">
+                <div>
+                 <img src="https://demothemesky-be87.kxcdn.com/merto/wp-content/uploads/2024/05/furniture-6-700x700.jpg" class="w-100" alt="">
+                </div>
+              <div class="cardtext">
+                <p class="mb-0 fw-semibold">14-inch Fasion Simplicity Quality Wall Clock, Home</p>
+                <span class="fw-semibold fs-5">$50 </span> <del class="fw-normal lightcolor">$75</del>
+                 <div class="my-1">
+                   <i class="fa-solid fa-star py-2 fa-xs"></i>
+                   <i class="fa-solid fa-star fa-xs"></i>
+                   <i class="fa-solid fa-star fa-xs"></i>
+                   <i class="fa-solid fa-star fa-xs"></i>
+                   <i class="fa-solid fa-star-half-alt fa-xs"></i>
+                 </div>
+             </div>
+             <div class="hovereffect d-none position-absolute">
+                <a class="position-relative text-decoration-none text-dark d-block">
+                   <i class="fa-regular fa-heart fw-normal border rounded-1 p-2"></i>
+                   <span class="hoveronicon">Wishlist</span>
+                </a> 
+
+               <a class="position-relative text-decoration-none text-dark d-block"> 
+                  <i class="fa-solid fa-down-left-and-up-right-to-center  border rounded-1 p-2"></i>
+                  <span class="hoveronicon ">Compare</span>
+               </a> 
+
+              <a class="position-relative text-decoration-none text-dark d-block"> 
+                  <span class="hoveronicon ">Quick view</span>
+                  <i class="fa-solid fa-magnifying-glass border rounded-1 p-2"></i>
+              </a> 
+
+               <a class="position-relative text-decoration-none text-dark d-block"> 
+                  <span class="hoveronicon ">Add to cart</span>
+                  <i class="fa-solid fa-cart-shopping border rounded-1  p-2"></i>
+               </a> 
+            
+            </div>
+           <div class="dis position-absolute">
+             <p>-8%</p>
+           </div>
+        </div>
+
+              <div class="card px-3 position-relative py-3">
+                <div>
+                 <img src="https://demothemesky-be87.kxcdn.com/merto/wp-content/uploads/2024/05/cosmetics-33-700x700.jpg" class="w-100" alt="">
+                </div>
+              <div class="cardtext">
+                <p class="mb-0 fw-semibold">Translucent Compact Face Powder - 03 Medium, 0.22 oz</p>
+                <span class="fw-semibold fs-5">$9 </span> <del class="fw-normal lightcolor">$14</del>
+                 <div class="my-1">
+                   <i class="fa-solid fa-star py-2 fa-xs"></i>
+                   <i class="fa-solid fa-star fa-xs"></i>
+                   <i class="fa-solid fa-star fa-xs"></i>
+                   <i class="fa-solid fa-star-half-alt fa-xs"></i>
+                   <i class="fa-solid fa-star-half-alt fa-xs"></i>
+                 </div>
+             </div>
+             <div class="hovereffect d-none position-absolute">
+                <a class="position-relative text-decoration-none text-dark d-block">
+                   <i class="fa-regular fa-heart fw-normal border rounded-1 p-2"></i>
+                   <span class="hoveronicon">Wishlist</span>
+                </a> 
+
+               <a class="position-relative text-decoration-none text-dark d-block"> 
+                  <i class="fa-solid fa-down-left-and-up-right-to-center  border rounded-1 p-2"></i>
+                  <span class="hoveronicon ">Compare</span>
+               </a> 
+
+              <a class="position-relative text-decoration-none text-dark d-block"> 
+                  <span class="hoveronicon ">Quick view</span>
+                  <i class="fa-solid fa-magnifying-glass border rounded-1 p-2"></i>
+              </a> 
+
+               <a class="position-relative text-decoration-none text-dark d-block"> 
+                  <span class="hoveronicon ">Add to cart</span>
+                  <i class="fa-solid fa-cart-shopping border rounded-1  p-2"></i>
+               </a> 
+            
+            </div>
+           <div class="dis position-absolute">
+             <p>-33%</p>
+           </div>
+        </div>
+
+         <div class="card px-3 position-relative py-3">
+                <div>
+                 <img src="https://demothemesky-be87.kxcdn.com/merto/wp-content/uploads/2024/05/cosmetics-33-700x700.jpg" class="w-100" alt="">
+                </div>
+              <div class="cardtext">
+                <p class="mb-0 fw-semibold">Translucent Compact Face Powder - 03 Medium, 0.22 oz</p>
+                <span class="fw-semibold fs-5">$9 </span> <del class="fw-normal lightcolor">$14</del>
+                 <div class="my-1">
+                   <i class="fa-solid fa-star py-2 fa-xs"></i>
+                   <i class="fa-solid fa-star fa-xs"></i>
+                   <i class="fa-solid fa-star fa-xs"></i>
+                   <i class="fa-solid fa-star-half-alt fa-xs"></i>
+                   <i class="fa-solid fa-star-half-alt fa-xs"></i>
+                 </div>
+             </div>
+             <div class="hovereffect d-none position-absolute">
+                <a class="position-relative text-decoration-none text-dark d-block">
+                   <i class="fa-regular fa-heart fw-normal border rounded-1 p-2"></i>
+                   <span class="hoveronicon">Wishlist</span>
+                </a> 
+
+               <a class="position-relative text-decoration-none text-dark d-block"> 
+                  <i class="fa-solid fa-down-left-and-up-right-to-center  border rounded-1 p-2"></i>
+                  <span class="hoveronicon ">Compare</span>
+               </a> 
+
+              <a class="position-relative text-decoration-none text-dark d-block"> 
+                  <span class="hoveronicon ">Quick view</span>
+                  <i class="fa-solid fa-magnifying-glass border rounded-1 p-2"></i>
+              </a> 
+
+               <a class="position-relative text-decoration-none text-dark d-block"> 
+                  <span class="hoveronicon ">Add to cart</span>
+                  <i class="fa-solid fa-cart-shopping border rounded-1  p-2"></i>
+               </a> 
+            
+            </div>
+           <div class="dis position-absolute">
+             <p>-33%</p>
+           </div>
+        </div>
+
+
+
+
+
+        
+        
+        
+    </div>
+ </section>
+
+<section class="imagessec ">
+  <div class="  d-flex   col-11  ">
+       <div class="col-3 position-relative border rounded overflow-hidden photo h-70 mx-2 ">
+            
+          <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/09/banner3-mobile-demo1.jpg " class="w-100 h-100 " alt="">
+            
+            <div class="position-absolute bottom-0 text-center ">
+                 <h2 class="text-uppercase  caption1 col-11 pb-3">sale 10% off tries michelin</h2>
+            </div>
+       </div>
+
+       <div class="col-6 border rounded   overflow-hidden position-relative photo h-70 mx-3 ">
+             <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/09/banner4-mobile-demo1.jpg"  class=" w-100 h-100 " alt="">
+         
+           <div class="position-absolute w-100 top-0 text-center cap">
+            <h5 class="mt-5">NEW COLLECTION</h5>
+             <h3 class="mt-1 fw-bold">Sofa Crafted in UK</h3>
+             <a href="" class="text-dark text-decoration-none position-relative underlineanimate">Shop now <i class="fa-solid fa-arrow-right fa-sm"></i></a>
+
+           </div>
+           
+       </div>
+       <div class="col-3 position-relative border rounded overflow-hidden photo h-70 mx-2  ">
+        <a href="" class="text-decoration-none text-dark">
+          <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/09/banner5-mobile-demo1.jpg" class="w-100 h-100" alt="">
+          <div class="position-absolute w-100 bottom-0 text-center">
+             <h5 class="mb-5 text-white"> Steals under 25$</h5>
+          </div>
+          </a>
+       </div>
+      
+  </div>
+</section>
+
+<section class="container container-fluid mb-5 ">
+  <div class="d-flex justify-content-between mt-5 pt-4 mb-4">
+   <h4 class="fw-bold fs-3">New arrivals</h4>
+   <ul class="list-unstyled d-flex ">
+    <li><a href="" class="text-dark   fw-semibold ">Fashion</a></li>
+    <li><a href="" class="text-dark mx-4 fw-semibold text-decoration-none animateonedirection  position-relative">Phone & Tablet</a></li>
+    <li><a href="" class="text-dark  fw-semibold text-decoration-none animateonedirection position-relative">Home & Decor</a></li>
+    <li><a href="" class="text-dark mx-4 fw-semibold text-decoration-none border-end animateonedirection position-relative">Beauty & Health</a></li>
+    <li class=""><a href="" class="text-dark mx-4 text-decoration-none underlineanimate position-relative">See All Products</a></li>
+    
+   </ul>
+  </div>
+ <div class="d-flex flex-wrap  ">
+   
+    <div class="position-relative col-4  h-40">
+    <div class=" border   crd w-100 h-100 position-absolute rounded">
+      
+      <div class="d-flex ">
+       <div class="col-5 ms-2 me-3" >
+         <img src="	https://demothemesky-be87.kxcdn.com/merto/wp-content/uploads/2024/05/fashion-5-700x700.jpg" class="w-100 h-100" alt="">
+       </div>
+        <div class="col-6 pt-5">
+          <p class="redp mb-0 pb-1">Nike Air Max Unisex SYSTM Men Sneaker</p>
+          <h5 class="mb-0 pb-1">$148</h5>
+          <div class="">
+              <i class="fa-solid fa-star py-2 fa-xs"></i>
+              <i class="fa-solid fa-star fa-xs"></i>
+              <i class="fa-solid fa-star fa-xs"></i>
+              <i class="fa-solid fa-star fa-xs"></i>
+              <i class="fa-solid fa-star-half-alt fa-xs"></i>
+            </div>
+
+        </div>
+       
+        </div>
+        <div class="d-none expand d-flex mx-4 mt-4">
+         <a href="" class="btn col-8 bg-body-secondary fw-bold f-7">+ADD TO CART</a>
+         <i class="fa-regular fa-heart   bg-body-secondary p-2 rounded"></i>
+         <i class="fa-solid fa-magnifying-glass  bg-body-secondary p-2 rounded"></i>
+         <i class="fa-solid fa-down-left-and-up-right-to-center  bg-body-secondary p-2 rounded"></i> 
+      </div>
+       
+
+    </div>
+    </div>
+   
+
+
+  
+   
+   
+    <div class="position-relative col-4  h-40">
+    <div class=" border   crd w-100 h-100 position-absolute ">
+      
+      <div class="d-flex ">
+       <div class="col-5 ms-2 me-3" >
+         <img src="	https://demothemesky-be87.kxcdn.com/merto/wp-content/uploads/2024/05/fashion-9-700x700.jpg" class="w-100 h-100" alt="">
+       </div>
+        <div class="col-6 pt-5">
+          <p class="redp mb-0 pb-1">100% UV Protected Sunglasses For Men</p>
+          <h5 class="mb-0 pb-1">$148</h5>
+          <div class="">
+              <i class="fa-solid fa-star py-2 fa-xs"></i>
+              <i class="fa-solid fa-star fa-xs"></i>
+              <i class="fa-solid fa-star fa-xs"></i>
+              <i class="fa-solid fa-star fa-xs"></i>
+              <i class="fa-solid fa-star-half-alt fa-xs"></i>
+            </div>
+
+        </div>
+       
+        </div>
+        <div class="d-none expand d-flex mx-4 ">
+         <a href="" class="btn col-8 bg-body-secondary fw-bold f-7">+ADD TO CART</a>
+         <i class="fa-regular fa-heart   bg-body-secondary p-2 rounded"></i>
+         <i class="fa-solid fa-magnifying-glass  bg-body-secondary p-2 rounded"></i>
+         <i class="fa-solid fa-down-left-and-up-right-to-center bg-body-secondary p-2 rounded"></i> 
+      </div>
+       
+
+    </div>
+    </div>
+   
+
+    <div class="position-relative col-4  h-40">
+    <div class=" border   crd w-100 h-100 position-absolute ">
+      
+      <div class="d-flex ">
+       <div class="col-5 ms-2 me-3" >
+         <img src="	https://demothemesky-be87.kxcdn.com/merto/wp-content/uploads/2024/05/fashion-6-700x700.jpg" class="w-100 h-100" alt="">
+       </div>
+        <div class="col-6 pt-5">
+          <p class="redp mb-0 pb-1">LV Women Leather Accent Denim Mini Skirt</p>
+          <h5 class="mb-0 pb-1">$1,390</h5>
+          <div class="">
+              <i class="fa-solid fa-star py-2 fa-xs"></i>
+              <i class="fa-solid fa-star fa-xs"></i>
+              <i class="fa-solid fa-star fa-xs"></i>
+              <i class="fa-solid fa-star fa-xs"></i>
+              <i class="fa-solid fa-star fa-xs"></i>
+            </div>
+
+        </div>
+       
+        </div>
+        <div class="d-none expand d-flex mx-4 ">
+         <a href="" class="btn col-8 bg-body-secondary fw-bold f-7">+ADD TO CART</a>
+         <i class="fa-regular fa-heart   bg-body-secondary p-2 rounded"></i>
+         <i class="fa-solid fa-magnifying-glass  bg-body-secondary p-2 rounded"></i>
+         <i class="fa-solid fa-down-left-and-up-right-to-center  bg-body-secondary p-2 rounded"></i> 
+      </div>
+       
+
+    </div>
+    </div>
+
+   <div class="position-relative col-4  h-40">
+    <div class=" border   crd w-100 h-100 position-absolute rounded">
+      
+      <div class="d-flex ">
+       <div class="col-5 ms-2 me-3" >
+         <img src="	https://demothemesky-be87.kxcdn.com/merto/wp-content/uploads/2024/05/fashion-16-700x700.jpg" class="w-100 h-100" alt="">
+       </div>
+        <div class="col-6 pt-5">
+          <p class="redp mb-0 pb-1">A Different Christmas Knit Holiday Sweater</p>
+          <h5 class="mb-0 pb-1">$148</h5>
+          <div class="">
+              <i class="fa-solid fa-star py-2 fa-xs"></i>
+              <i class="fa-solid fa-star fa-xs"></i>
+              <i class="fa-solid fa-star fa-xs"></i>
+              <i class="fa-solid fa-star-half-alt  fa-xs"></i>
+              <i class="fa-solid fa-star-half-alt fa-xs"></i>
+            </div>
+
+        </div>
+       
+        </div>
+        <div class="d-none expand d-flex mx-4 mt-4">
+         <a href="" class="btn col-8 bg-body-secondary fw-bold f-7">+ADD TO CART</a>
+         <i class="fa-regular fa-heart   bg-body-secondary p-2 rounded"></i>
+         <i class="fa-solid fa-magnifying-glass  bg-body-secondary p-2 rounded"></i>
+         <i class="fa-solid fa-down-left-and-up-right-to-center  bg-body-secondary p-2 rounded"></i> 
+      </div>
+       
+
+    </div>
+    </div>
+   
+
+
+  <div class="position-relative col-4  h-40">
+    <div class=" border   crd w-100 h-100 position-absolute rounded">
+      
+      <div class="d-flex ">
+       <div class="col-5 ms-2 me-3" >
+         <img src="https://demothemesky-be87.kxcdn.com/merto/wp-content/uploads/2024/05/fashion-1-700x700.jpg" class="w-100 h-100" alt="">
+       </div>
+        <div class="col-6 pt-5">
+          <p class="redp mb-0 pb-1">Winter New Jacket Loose Retro American Campus</p>
+          <h5 class="mb-0 pb-1">$160</h5>
+          <div class="">
+              <i class="fa-solid fa-star py-2 fa-xs"></i>
+              <i class="fa-solid fa-star fa-xs"></i>
+              <i class="fa-solid fa-star fa-xs"></i>
+              <i class="fa-solid fa-star  fa-xs"></i>
+              <i class="fa-solid fa-star-half-alt fa-xs"></i>
+            </div>
+
+        </div>
+       
+        </div>
+        <div class="d-none expand d-flex mx-4 mt-4">
+         <a href="" class="btn col-8 bg-body-secondary fw-bold f-7">+ADD TO CART</a>
+         <i class="fa-regular fa-heart   bg-body-secondary p-2 rounded"></i>
+         <i class="fa-solid fa-magnifying-glass  bg-body-secondary p-2 rounded"></i>
+         <i class="fa-solid fa-down-left-and-up-right-to-center  bg-body-secondary p-2 rounded"></i> 
+      </div>
+       
+
+    </div>
+    </div>
+   
+
+     <div class="position-relative col-4  h-40">
+    <div class=" border   crd w-100 h-100 position-absolute rounded">
+      
+      <div class="d-flex ">
+       <div class="col-5 ms-2 me-3" >
+         <img src="	https://demothemesky-be87.kxcdn.com/merto/wp-content/uploads/2024/05/fashion-3-700x700.jpg" class="w-100 h-100" alt="">
+       </div>
+        <div class="col-6 pt-5">
+          <p class="redp mb-0 pb-1">Winter Hats with Top Ball Custom Design</p>
+          <h5 class="mb-0 pb-1">$17</h5>
+          <div class="">
+              <i class="fa-solid fa-star py-2 fa-xs"></i>
+              <i class="fa-solid fa-star fa-xs"></i>
+              <i class="fa-solid fa-star fa-xs"></i>
+              <i class="fa-solid fa-star fa-xs"></i>
+              <i class="fa-solid fa-star fa-xs"></i>
+            </div>
+
+        </div>
+       
+        </div>
+        <div class="d-none expand d-flex mx-4 mt-4">
+         <a href="" class="btn col-8 bg-body-secondary fw-bold f-7">+ADD TO CART</a>
+         <i class="fa-regular fa-heart   bg-body-secondary p-2 rounded"></i>
+         <i class="fa-solid fa-magnifying-glass  bg-body-secondary p-2 rounded"></i>
+         <i class="fa-solid fa-down-left-and-up-right-to-center  bg-body-secondary p-2 rounded"></i> 
+      </div>
+       
+
+    </div>
+    </div>
+   
+
+
+
+  </div>
+</section>
+      
+    <div id="carouselExampleIndicators" class="carousel slide c1 carousel-fade overflow-hidden mt-5 bgcarsoul " style="height:570px">
+    
+    <div class="position-absolute  z-2 featurs col-6 bg-white border rounded-1 ">
+        <h3 class="fw-bold my-3 ">Athletics Embroidered Relaxed Hoodie</h3>
+        <div class="d-flex align-items-center"><i class="fa-solid fa-check text-success "></i> <h6 class="mx-1 mb-1"> 64% cotton, 36% polyester</h6></div>
+        <div class="d-flex align-items-center"><i class="fa-solid fa-check text-success"></i> <h6 h6 class="mx-1 mb-1">  Do not dry clean</h6></div>
+        <div class="d-flex align-items-center"><i class="fa-solid fa-check text-success"></i> <h6 h6 class="mx-1 mb-1"> Machine wash</h6></div>
+        <div>
+          <hr class="my-3 w-75 ">
+          <div class="d-flex "><h4>$89</h4> <del class="fs-5 text-muted mb-2 mx-2">$120</del></div> 
+       </div>
+        <div class="carousel-indicators imageindicator">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1">
+      <img src="images/hodi1.jpg" class="w-100 border " alt="">
+    </button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2 " > 
+       <img src="images/hodi2.jpg" class="w-100 border rounded" alt="">
+    </button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"> 
+        <img src="images/hodi3.jpg" class="w-100 border rounded" alt="">
+      </button>
+       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"> 
+        <img src="images/hodi4.jpg" class="w-100 border rounded " alt="">
+      </button>
+    </div>
+    <a href="" class="btn border btn-buy text-bold ">BUY NOW</a>
+      </div>
+  <div class="carousel-inner " >
+    <div class="hoodiesanimation ">
+      <h2 class="fw-bold">-30%</h2>
+    </div>
+    <div class="carousel-item active bgcarsoul  ">
+      <div class="col-6 mx-5 ">
+         <img src="images/hodi1.jpg" class="d-block w-100 mx-4  imgbackground" alt="..." >
+      </div>
+    </div>
+    <div class="carousel-item bgcarsoul">
+       <div class="col-6 mx-5 ">
+      <img src="images/hodi2.jpg" class="d-block w-100 mx-4 imgbackground " height="50%" alt="...">
+      </div>
+    </div>
+    <div class="carousel-item bgcarsoul">
+       <div class="col-6  mx-5">
+      <img src="images/hodi3.jpg" class="d-block w-100 mx-4 imgbackground" alt="...">
+      </div>
+    </div>
+     <div class="carousel-item bgcarsoul">
+       <div class="col-6 mx-5 ">
+      <img src="images/hodi4.jpg" class="d-block w-100 mx-4 imgbackground" alt="...">
+       </div>
+    </div>
+  </div>
+  
+  <button class="carousel-control-prev w-4 " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon d-none " aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next  w-4 " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon d-none " aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<section class="container container-fluid my-5"><!--our blog-->
+  <h3 class="pb-4 pt-5">From Our Blog</h3>
+ <div class="owl-carouselthree owl-carousel">
+  <div class="col-11" > <!--item1-->
+    <div class="border  rounded overflow-hidden img"> 
+      <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/03/blog-1.jpg" class="w-100 h-100" alt="">
+    </div>
+    <div class="txt">
+      <div class="my-2 ">
+        <a class="text-decoration-none text-dark f-7 type" href="">Beauty & Fashion</a>
+        <span class="f-7" ><span class="text-muted mx-1">By</span><a class="text-decoration-none text-dark fw-semibold bywho"  href="">Myoui Mina</a></span>
+      </div>
+      <h4><a class="text-decoration-none text-dark h5 col-12"  href="">Weekday Outfit Inspiration for  Occasions</a></h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta et nisi at sodales.</p>
+      <button type="button" class="btn btn-outline-dark px-3 fw-semibold">Read More</button>
+    </div>
+  </div><!-- end item1-->
+
+  <div class="col-11" > <!--item2-->
+    <div class="border  rounded overflow-hidden img"> 
+      <img src="	https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/03/blog-2.jpg" class="w-100 h-100" alt="">
+    </div>
+    <div class="txt">
+      <div class="my-2 ">
+        <a class="text-decoration-none text-dark f-7 type" href="">COSMETICS</a>
+        <span class="f-7" ><span class="text-muted mx-1">By</span><a class="text-decoration-none text-dark fw-semibold bywho"  href="">Myoui Mina</a></span>
+      </div>
+      <h4><a class="text-decoration-none text-dark h5"  href="">100% Pure & Natural Sage Essential Oil</a></h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta et nisi at sodales.</p>
+      <button type="button" class="btn btn-outline-dark px-3 fw-semibold">Read More</button>
+    </div>
+  </div><!-- end item2-->
+
+   <div class="col-11" > <!--item3-->
+    <div class="border  rounded overflow-hidden img"> 
+      <img src="	https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/03/blog-3.jpg" class="w-100 h-100" alt="">
+    </div>
+    <div class="txt">
+      <div class="my-2 ">
+        <a class="text-decoration-none text-dark f-7 type" href="">ELECTRONICS</a>
+        <span class="f-7" ><span class="text-muted mx-1">By</span><a class="text-decoration-none text-dark fw-semibold bywho"  href="">Myoui Mina</a></span>
+      </div>
+      <h4><a class="text-decoration-none text-dark h5"  href="">Tips for Cleaning Desktop & Laptop</a></h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta et nisi at sodales.</p>
+      <button type="button" class="btn btn-outline-dark px-3 fw-semibold">Read More</button>
+    </div>
+  </div><!-- end item3-->
+  
+</div>
+</section>
+
+<section class="bg-body-secondary py-5 searchs ">
+  <div class="text-center search">
+      <h3 class="pt-4 pb-2">Looking for something else?</h3>
+
+     <div class="input-group mb-3 w-60">
+        <input type="text" class="form-control" placeholder="search for product" aria-describedby="button-addon2">
+        <button class="btn  px-3 bg-black" type="button" id="button-addon2"><i class="fa-solid fa-magnifying-glass text-white"></i></button>
+    </div>
+      <div class=" d-flex flex-wrap  searchitem w-60">
+         <a href=""class="text-decoration-none text-dark fw-semibold    lineafter">smartphone</a>
+         <a href=""class="text-decoration-none text-dark fw-semibold  lineafter">tablet</a>
+         <a href=""class="text-decoration-none text-dark fw-semibold  lineafter">controller</a>
+         <a href=""class="text-decoration-none text-dark fw-semibold   lineafter">furniture</a>
+         <a href=""class="text-decoration-none text-dark fw-semibold   lineafter">labtop</a>
+         <a href=""class="text-decoration-none text-dark fw-semibold  lineafter ">playstation</a>
+         <a href=""class="text-decoration-none text-dark fw-semibold  mt-3 lineafter">womens fashion</a>
+         <a href=""class="text-decoration-none text-dark fw-semibold  mt-3 lineafter">homes & decor</a>
+         <a href=""class="text-decoration-none text-dark fw-semibold  mt-3">camera</a>
+      </div>
+  </div>
+</section>
+<section class="bg-black text-white detls " >
+<div class="d-flex container-fluid container pt-4 hovrs">
+   <div class="col-3"><!--first col-->
+    <div class="w-100 mt-5"><img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/04/logo.png" style="width:40%; height:40%" alt=""></div>
+      <div class="d-flex  align-items-start lightcolor mt-4">
+        <i class="fa-solid fa-location-dot"></i>
+        <p class="mx-2   mb-2">29 SE 2nd Ave, Miami <br>Florida 33131, United States</p>
+      </div>
+      <div class="d-flex lightcolor ">
+       <i class="fa-solid fa-envelope fa-lg pt-3"></i>
+        <p class="mx-2 ">info@example.com</p>
+      </div>
+      <a href="tel:(+92) 3942 7879" class="fs-5 fw-bold text-decoration-none text-white"> (+92) 3942 7879</a>
+   </div> <!-- end of first col-->
+
+<div class="col-2"> <!--sec col-->
+  <h6 class="fw-bold mt-5 fs-14 ">SHOPPING</h6>
+  <ul class="list-unstyled hovrs">
+    <li class="mt-4 mb-3"><a href="" class="text-decoration-none text-white  fs-15">Wilshist</a></li>
+    <li class="my-3"><a href="" class="text-decoration-none text-white  fs-15">shop by Brand</a></li>
+    <li class="my-3"><a href="" class="text-decoration-none text-white  fs-15">offers</a></li>
+    <li class="my-3"><a href="" class="text-decoration-none text-white fs-15 ">track order</a></li>
+    <li class="my-3"><a href="" class="text-decoration-none text-white fs-15 ">size Guide</a></li>
+  </ul>
+</div><!-- end of sec col-->
+<div class="col-2"> <!--3 col-->
+  <h6 class="fw-bold mt-5 fs-14">INFOMATION</h6>
+  <ul class="list-unstyled hovrs">
+    <li class="mt-4 mb-3"><a href="" class="text-decoration-none text-white fs-15 ">Track Order</a></li>
+    <li class="my-3"><a href="" class="text-decoration-none text-white  fs-15">Shipping & Returns</a></li>
+    <li class="my-3"><a href="" class="text-decoration-none text-white fs-15 ">offers</a></li>
+    <li class="my-3"><a href="" class="text-decoration-none text-white  fs-15">track order</a></li>
+    <li class="my-3"><a href="" class="text-decoration-none text-white fs-15 ">size Guide</a></li>
+  </ul>
+</div><!-- end of 3 col-->
+<div class="col-2 "> <!--4 col-->
+  <h6 class="fw-bold mt-5  fs-14">ACCOUNT</h6>
+  <ul class="list-unstyled hovrs">
+    <li class="mt-4 mb-3"><a href="" class="text-decoration-none text-white fs-15 ">cart</a></li>
+    <li class="my-3"><a href="" class="text-decoration-none text-white fs-15 ">my account</a></li>
+    <li class="my-3"><a href="" class="text-decoration-none text-white fs-15 ">my order</a></li>
+    <li class="my-3"><a href="" class="text-decoration-none text-white fs-15 ">wishlist</a></li>
+    <li class="my-3"><a href="" class="text-decoration-none text-white fs-15 ">size Guide</a></li>
+  </ul>
+</div><!-- end of 4 col-->
+<div class="col-4">
+<h4 class="mt-4">Let’s keep in touch</h4>
+<div class="input-group mb-3 mt-5 mb-3 " style="width: 75% !important; height:6.5vh !important">
+        <input type="text" class="form-control bg-black text-white border-1 border-light-subtle py-2" placeholder="enter your email address" aria-describedby="button-addon3">
+        <button class="btn  px-3 bg-black border-0  border-light-subtle border-top border-bottom border-end" type="button" id="button-addon3"><i class="fa-solid fa-arrow-right text-white"></i></button>
+</div>
+  <div class="mt-4"> 
+    <i class="fa-brands fa-facebook-f text-white mx-2 fa-lg "></i>
+    <i class="fa-brands fa-tiktok text-white mx-2 fa-lg "></i>
+    <i class="fa-brands fa-tiktok text-white mx-2 fa-lg "></i>
+
+    <i class="fa-brands fa-youtube text-white mx-2 fa-lg "></i>
+    <i class="fa-brands fa-square-instagram text-white mx-2 fa-lg "></i>
+  </div>
+</div>
+
+</div>
+
+<div class="container container-fluid d-flex border border-1 border-light-subtle c mt-4  ">
+  <div class="d-flex col-4 mt-4 mb-5 ms-5">
+    <i class="fa-solid fa-phone fa-2x ms-5 me-3 mt-1"></i>
+    <div>
+      <h5 class="fs-8 fw-bold">Didn't find what you were looking for?</h5>
+      <a href=""  class="text-white ">Contact Us</a>
+    </div>
+  </div>
+
+   <div class="d-flex col-3 mt-4 mb-5 me-4">
+    <i class="fa-regular fa-face-smile fa-2x mx-3"></i>
+    <div>
+      <h5 class="fs-8 fw-bold">How can we help you today?</h5>
+      <a href="" class="text-white ">Help Center</a>
+    </div>
+  </div>
+
+
+   <div class="d-flex col-4 mt-4 mb-5">
+    <i class="fa-solid fa-circle-radiation fa-2x mx-3"></i>
+    <div>
+      <h5 class="fs-8 fw-bold">We’d love to hear what you think!</h5>
+      <a href="" class="text-white ">Give Feedback</a>
+    </div>
+  </div>
+
+</div>
+  <div class="d-flex justify-content-between container container-fluid  mt-4 pb-3">
+    <p class="lightcolor fs-14 ">Copyright © Merto. All Rights Reserved</p>   
+     <div> <i class="fa-brands fa-cc-paypal fa-2x px-1"></i>
+    
+    <i class="fa-brands fa-cc-visa fa-2x px-1"></i>
+    <i class="fa-brands fa-cc-visa fa-2x px-1"></i>
+    <i class="fa-brands fa-cc-visa fa-2x px-1"></i>
+    <i class="fa-brands fa-cc-discover fa-2x px-1"></i>
+    <i class="fa-brands fa-cc-jcb fa-2x px-1"></i>
+
+   
+  </div>
+</section>
+<div id="backsearch" class="position-fixed top-0 start-0 w-100 h-100 bg-black opacity-50 d-none" style="z-index: 2;"></div>
+
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script>
+    
+      $(document).ready(function(){
+   var owl = $(".owl-carouselone");
+   owl.owlCarousel({loop:true,
+    items:8,
+    autoplay:true,
+    autoplayTimeout:6000,
+    dots:true,
+    margin:10,
+    startPosition: 1,
+    nav:true
+  });
+  
+});
+      $(document).ready(function(){
+   var owl = $(".owl-carouseltwo");
+   owl.owlCarousel({loop:true,
+      autoplay:false,
+    autoplayTimeout:4000,
+     nav:true,
+    items:5,
+    dots:true,
+    startPosition: 0,
+   
+  });
+
+  
+  
+});
+
+ $(document).ready(function(){
+   var owl = $(".owl-carouselthree");
+   owl.owlCarousel({loop:true,
+    items:3,
+    dots:false,
+    startPosition: 0,
+    nav:true
+  });
+
+  
+  
+});
+
+    </script>
+</body>
+</html> </div>
